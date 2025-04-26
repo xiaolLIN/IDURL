@@ -2,15 +2,14 @@
 
 # Note that we take SASRec as the default backbone model to obtain original user representations.
 
-# for reproduction
 # Amazon Beauty
-#python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='Amazon_Beauty' --config_files='configs/Amazon_Beauty.yaml' --split_eval=1
+python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='Amazon_Beauty' --config_files='configs/Amazon_Beauty.yaml' --split_eval=1
 # Amazon_Sports_and_Outdoors
-#python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='Amazon_Sports_and_Outdoors' --config_files='configs/Amazon_Sports_and_Outdoors.yaml' --split_eval=1
+python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='Amazon_Sports_and_Outdoors' --config_files='configs/Amazon_Sports_and_Outdoors.yaml' --split_eval=1
 # Amazon_Toys_and_Games
 python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='Amazon_Toys_and_Games' --config_files='configs/Amazon_Toys_and_Games.yaml' --split_eval=1
 # yelp
-#python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='yelp' --rm_dup_inter=None --config_files='configs/yelp.yaml' --split_eval=1
+python run_recbole.py --gpu_id=0 --model=SASRec_IDURL --dataset='yelp' --rm_dup_inter=None --config_files='configs/yelp.yaml' --split_eval=1
 
 
 
