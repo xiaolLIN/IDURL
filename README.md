@@ -1,5 +1,5 @@
 # IDURL
-The source code of our SIGIR 2025 paper [**"Towards Interest Drift-driven User Representation Learning in Sequential Recommendation"**]
+The source code of our SIGIR 2025 paper [**"Towards Interest Drift-driven User Representation Learning in Sequential Recommendation"**](https://dl.acm.org/doi/10.1145/3726302.3730099)
 
 
 ## Preparation
@@ -45,3 +45,15 @@ If you have any questions, please send emails to Xiaolin Lin (linxiaolin2021@ema
 ## Credit
 This repository is based on [RecBole](https://github.com/RUCAIBox/RecBole) and [DIF-SR](https://github.com/AIM-SE/DIF-SR).
 
+## Citation
+```
+@inproceedings{10.1145/3726302.3730099,
+author = {Lin, Xiaolin and Pan, Weike and Ming, Zhong},
+title = {Towards Interest Drift-driven User Representation Learning in Sequential Recommendation},
+year = {2025},
+url = {https://doi.org/10.1145/3726302.3730099},
+doi = {10.1145/3726302.3730099},
+booktitle = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {1541–1551}
+}
+```
