@@ -11,7 +11,6 @@ Our code requires the following python packages:
 > + torch==1.13.1+cu116
 > + tensorboard==2.11.2
 
-
 ## Usage
 
 We provide two datasets, i.e., Beauty `./dataset/Amazon_Beauty` and Toys `./dataset/Amazon_Toys_and_Games`.  <br>
