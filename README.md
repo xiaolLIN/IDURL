@@ -4,7 +4,7 @@ The source code of our SIGIR 2025 paper [**"Towards Interest Drift-driven User R
 
 ## Preparation
 We train and evaluate our IDURL using a Tesla V100 GPU with 32 GB memory. <br>
-Our code is based on PyTorch 1.8.1, and requires the following python packages:
+Our code requires the following python packages:
 
 > + numpy==1.21.6
 > + scipy==1.7.3 
